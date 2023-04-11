@@ -140,12 +140,13 @@ a {
     z-index: 10000;
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    border: solid red 1px;
+ 
+    /* border: solid red 1px; */
 }
 
 .searchBar {
     background-color: white;
-    border: solid rgba(0, 0, 0, 0.2) 1px;
+    /* border: solid rgba(0, 0, 0, 0.2) 1px; */
     padding: 5px;
     display: flex;
     flex-direction: row;
@@ -153,9 +154,10 @@ a {
     justify-content: center;
     text-align: center;
     z-index: 10000;
-    width: 240px;
-    height: 80px;
+    width: 280px;
+    height: 94px;
     margin: 0;
+    box-shadow: 0 4px 8px rgba(65, 71, 75, 0.2);
 }
 
 .searchInput {
@@ -163,6 +165,8 @@ a {
     letter-spacing: 1px;
     padding: 10px;
     margin: 0;
+    color: #41474b;
+    border: solid rgba(65, 71, 75, 0.2) 3px;
 }
 
 .searchBarButton {
@@ -170,8 +174,8 @@ a {
     color: white;
     background-color: #41474B;
     margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Hero Section Styles */
